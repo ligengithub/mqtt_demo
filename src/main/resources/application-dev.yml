@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: mqtt-demo
+
+
+mqtt:
+  user-name: guest
+  password: guest
+  broker: tcp://127.0.0.1:1883
+  base-pub-topic:  /mqtt/
+  sub-topic: /mqtt/mqtt-demo  # ¶©ÔÄµÄÖ÷Ìâ
+server:
+  port: 8088
